@@ -19,14 +19,17 @@ body {
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url('/public/background.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(10, 10, 10);
   width: 100%;
 }
 
@@ -72,4 +75,18 @@ body {
 .CurrencyInput div {
   text-align: center;
   margin: 1rem 0;
+}
+/* style the favorites button */
+.button {
+  background-color: #030303; 
+  color: white; 
+  border: none; 
+  padding: 0.5rem 1rem; 
+  font-size: 1rem; 
+  border-radius: 4px; 
+  transition: background-color 0.3s ease; 
+}
+
+.button:hover {
+  background-color: #e70a0a; 
 }
